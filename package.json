@@ -1,0 +1,20 @@
+{
+  "name": "node_prep",
+  "version": "1.0.0",
+  "description": "interview",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "node --loader ts-node/esm --watch index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Santiago Herrera",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/esm": "^1.0.2",
+    "@types/node": "^18.15.9",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2"
+  }
+}
